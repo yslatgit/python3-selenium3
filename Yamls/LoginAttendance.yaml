@@ -1,0 +1,32 @@
+testcase:
+    - element_info: j_username
+      find_type: id
+      operate_type: send_keys
+      msg: duyi
+      info: 输入用户名
+    - element_info: j_password
+      find_type: id
+      operate_type: send_keys
+      msg: 123456
+      info: 输入密码
+    - element_info: submit
+      find_type: id
+      operate_type: click
+      info: 点击登录
+    - element_info: //ul[@class="sidebar_ul"]/li[2]
+      find_type: xpath
+      operate_type: move_to_element
+      info: 鼠标悬停在“协同办公”
+    - element_info: /html/body/div[1]/div[1]/ul/li[2]/div/ul/li[2]/ul/li[4]/a
+      find_type: xpath
+      operate_type: click
+      info: 点击考勤管理
+#    - element_info: //*[@id="nav-box"]/div[2]
+#      find_type: xpath
+#      operate_type: move_to_element
+#      info: 鼠标悬停在“日常考勤管理”
+#    - element_info: //*[@id="nav-box"]/div[2]/div[2]/div[1]/a
+#      find_type: xpath
+#      operate_type: click
+#      info: 点击员工信息管理
+

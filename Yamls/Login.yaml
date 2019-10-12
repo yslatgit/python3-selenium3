@@ -1,0 +1,15 @@
+testcase:
+    - element_info: j_username
+      find_type: id
+      operate_type: send_keys
+      msg: duyi
+      info: 输入用户名
+    - element_info: j_password
+      find_type: id
+      operate_type: send_keys
+      msg: 123456
+      info: 输入密码
+    - element_info: submit
+      find_type: id
+      operate_type: click
+      info: 点击登录

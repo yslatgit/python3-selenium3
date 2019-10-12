@@ -1,0 +1,4 @@
+2019-10-11 15:43:17,524 - root - INFO - --------all--------START--------
+2019-10-11 15:43:17,525 - root - INFO - ['MyLoginTest\n', '#MyTest']
+2019-10-11 15:43:18,667 - root - ERROR - [Errno 2] No such file or directory: '../report/AllTestReport.html'
+2019-10-11 15:43:18,667 - root - INFO - --------all--------END--------

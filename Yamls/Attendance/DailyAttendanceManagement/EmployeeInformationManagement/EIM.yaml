@@ -1,0 +1,29 @@
+testcase:
+  #跳转至员工信息管理页面
+  - element_info: //*[@id="nav-box"]/div[2]
+    find_type: xpath
+    operate_type: move_to_element
+    info: 鼠标悬停在“日常考勤管理”
+  - element_info: //*[@id="nav-box"]/div[2]/div[2]/div[1]/a
+    find_type: xpath
+    operate_type: click
+    info: 点击员工信息管理
+  #测试用例1
+  - element_info: //input[@placeholder="请输入姓名/工号"]
+    find_type: xpath
+    operate_type: send_keys
+    msg: 艾慧
+    info: 输入姓名
+  - element_info: //div[@class="simpleChoice"]/i[2]
+    find_type: xpath
+    operate_type: click
+    info: 点击搜索
+  - element_info: //tr[@class="v-table-row"]/td[2]/div/span
+    find_type: xpath
+    operate_type: get_text
+    msg: 艾慧
+    info: 获取元素
+  - element_info: //div[@class="simpleChoice"]/i[1]
+    find_type: xpath
+    operate_type: click
+    info: 清空输入框
